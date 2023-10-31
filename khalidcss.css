@@ -38,20 +38,7 @@ body{
 	background: var(--bg-color);
 	color: var(--text-color);
 }
-header{
-	position: fixed;
-	width: 100%;
-	top: 0;
-	right: 0;
-	z-index: 1000;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	background-color: var(--secound-color);
-	background-size: cover;
-	padding: 20px;
-	transition: .3s;
-}
+
 .logo img{
 	max-width: 100%;
 	width: 70px;
