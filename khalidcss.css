@@ -38,6 +38,10 @@ body{
 	background: var(--bg-color);
 	color: var(--text-color);
 }
+header{
+	display:flex;
+	
+}
 
 .logo img{
 	max-width: 100%;
