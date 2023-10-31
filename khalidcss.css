@@ -59,19 +59,19 @@ header{
 	transform: rotate(45deg);
 	
 }
-.navlist{
+#navlist{
 	display: flex;
 }
-.navlist li{
+#navlist li{
 	position: relative;
 }
-.navlist a{
+#navlist a{
 	font-size: var(--p-font);
 	color: white;
 	font-weight: 500;
 	padding: 10px 27px;
 }
-.navlist a::after{
+#navlist a::after{
 	content: '';
 	position: absolute;
 	width: 0;
@@ -81,7 +81,7 @@ header{
 	left: 0;
 	transition: ease .40s;
 }
-.navlist a:hover::after{
+#navlist a:hover::after{
 	width: 100%;
 }
 #menu-icon{
@@ -537,21 +537,21 @@ header.sticky{
 		text-align: right;
 		transition: all .40s;
 	}
-	.navlist a{
+	#navlist a{
 		display: block;
 		padding: 1.2rem;
 		margin: 1.5rem;
 		border-right: 2px solid var(--bg-color);
 		color: var(--bg-color);
 	}
-	.navlist a:hover{
+	#navlist a:hover{
 		background: var(--bg-color);
 		color: var(--main-color);
 	}
-	.navlist a::after{
+	#navlist a::after{
 		display: none;
 	}
-	.navlist.active{
+	#navlist.active{
 		top: 100%;
 	}
 }
